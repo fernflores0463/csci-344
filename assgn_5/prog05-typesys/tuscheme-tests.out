@@ -1,0 +1,182 @@
+num
+test-B:a:01-num PASS (soln.tychk == tychk)
+test-B:a:02-num PASS (soln.tychk == tychk)
+num PASS
+bool
+test-B:b:01-bool PASS (soln.tychk == tychk)
+test-B:b:02-bool PASS (soln.tychk == tychk)
+bool PASS
+sym
+test-B:c:01-sym PASS (soln.tychk == tychk)
+test-B:c:02-sym PASS (soln.tychk == tychk)
+sym PASS
+val
+test-B:d:01-val PASS (soln.tychk == tychk)
+test-B:d:02-val PASS (soln.tychk == tychk)
+test-B:d:03-val PASS (soln.tychk == tychk)
+test-B:d:04-val PASS (soln.tychk == tychk)
+val PASS
+if
+test-B:e:01-if PASS (soln.tychk == tychk)
+test-B:e:02-if PASS (soln.tychk == tychk)
+test-B:e:03-if PASS (soln.tyerr; tyerr)
+test-B:e:04-if PASS (soln.tyerr; tyerr)
+test-B:e:05-if PASS (soln.tyerr; tyerr)
+test-B:e:06-if PASS (soln.tychk == tychk)
+if PASS
+var
+test-B:f:01-var PASS (soln.tychk == tychk)
+test-B:f:02-var PASS (soln.tyerr; tyerr)
+test-B:f:03-var PASS (soln.tychk == tychk)
+var PASS
+set
+test-B:g:01-set PASS (soln.tychk == tychk)
+test-B:g:02-set PASS (soln.tyerr; tyerr)
+test-B:g:03-set PASS (soln.tychk == tychk)
+test-B:g:04-set PASS (soln.tyerr; tyerr)
+test-B:g:05-set PASS (soln.tyerr; tyerr)
+set PASS
+begin
+test-B:h:01-begin PASS (soln.tychk == tychk)
+test-B:h:02-begin PASS (soln.tychk == tychk)
+test-B:h:03-begin PASS (soln.tychk == tychk)
+test-B:h:04-begin PASS (soln.tyerr; tyerr)
+begin PASS
+while
+test-B:i:01-while PASS (soln.tychk == tychk)
+test-B:i:02-while PASS (soln.tyerr; tyerr)
+test-B:i:03-while PASS (soln.tyerr; tyerr)
+while PASS
+let
+test-B:j:01-let PASS (soln.tychk == tychk)
+test-B:j:02-let PASS (soln.tychk == tychk)
+test-B:j:03-let PASS (soln.tychk == tychk)
+test-B:j:04-let PASS (soln.tyerr; tyerr)
+test-B:j:05-let PASS (soln.tyerr; tyerr)
+test-B:j:06-let PASS (soln.tychk == tychk)
+let PASS
+letstar
+test-B:k:01-letstar PASS (soln.tychk == tychk)
+test-B:k:02-letstar PASS (soln.tychk == tychk)
+test-B:k:03-letstar PASS (soln.tychk == tychk)
+test-B:k:04-letstar PASS (soln.tyerr; tyerr)
+test-B:k:05-letstar PASS (soln.tyerr; tyerr)
+test-B:k:06-letstar PASS (soln.tychk == tychk)
+letstar PASS
+lambda
+test-B:l:01-lambda PASS (soln.tychk == tychk)
+test-B:l:02-lambda PASS (soln.tychk == tychk)
+test-B:l:03-lambda PASS (soln.tychk == tychk)
+test-B:l:04-lambda PASS (soln.tychk == tychk)
+test-B:l:05-lambda PASS (soln.tychk == tychk)
+test-B:l:06-lambda PASS (soln.tychk == tychk)
+test-B:l:07-lambda PASS (soln.tychk == tychk)
+test-B:l:08-lambda PASS (soln.tychk == tychk)
+test-B:l:09-lambda PASS (soln.tychk == tychk)
+test-B:l:10-lambda PASS (soln.tychk == tychk)
+test-B:l:11-lambda PASS (soln.tychk == tychk)
+test-B:l:12-lambda PASS (soln.tychk == tychk)
+test-B:l:13-lambda PASS (soln.tychk == tychk)
+test-B:l:14-lambda PASS (soln.tyerr; tyerr)
+test-B:l:15-lambda PASS (soln.tyerr; tyerr)
+test-B:l:16-lambda PASS (soln.tyerr; tyerr)
+test-B:l:17-lambda PASS (soln.tyerr; tyerr)
+test-B:l:18-lambda PASS (soln.tychk == tychk)
+test-B:l:19-lambda PASS (soln.tychk == tychk)
+test-B:l:20-lambda PASS (soln.tychk == tychk)
+test-B:l:21-lambda PASS (soln.tychk == tychk)
+test-B:l:22-lambda PASS (soln.tychk == tychk)
+test-B:l:23-lambda PASS (soln.tychk == tychk)
+test-B:l:24-lambda PASS (soln.tychk == tychk)
+test-B:l:25-lambda PASS (soln.tyerr; tyerr)
+lambda PASS
+apply
+test-B:m:01-apply PASS (soln.tychk == tychk)
+test-B:m:02-apply PASS (soln.tychk == tychk)
+test-B:m:03-apply PASS (soln.tychk == tychk)
+test-B:m:04-apply PASS (soln.tyerr; tyerr)
+test-B:m:05-apply PASS (soln.tyerr; tyerr)
+test-B:m:06-apply PASS (soln.tyerr; tyerr)
+test-B:m:07-apply PASS (soln.tyerr; tyerr)
+test-B:m:08-apply PASS (soln.tychk == tychk)
+apply PASS
+valrec
+test-B:n:01-valrec PASS (soln.tychk == tychk)
+test-B:n:02-valrec PASS (soln.tychk == tychk)
+test-B:n:03-valrec PASS (soln.tychk == tychk)
+test-B:n:04-valrec PASS (soln.tychk == tychk)
+test-B:n:05-valrec PASS (soln.tychk == tychk)
+test-B:n:06-valrec PASS (soln.tyerr; tyerr)
+test-B:n:07-valrec PASS (soln.tyerr; tyerr)
+test-B:n:08-valrec PASS (soln.tyerr; tyerr)
+test-B:n:09-valrec PASS (soln.tyerr; tyerr)
+test-B:n:10-valrec PASS (soln.tyerr; tyerr)
+valrec PASS
+define
+test-B:o:01-define PASS (soln.tychk == tychk)
+test-B:o:02-define PASS (soln.tychk == tychk)
+test-B:o:03-define PASS (soln.tychk == tychk)
+test-B:o:04-define PASS (soln.tychk == tychk)
+test-B:o:05-define PASS (soln.tychk == tychk)
+define PASS
+letrec
+test-B:p:01-letrec PASS (soln.tychk == tychk)
+test-B:p:02-letrec PASS (soln.tychk == tychk)
+test-B:p:03-letrec PASS (soln.tychk == tychk)
+test-B:p:04-letrec PASS (soln.tychk == tychk)
+test-B:p:05-letrec PASS (soln.tyerr; tyerr)
+test-B:p:06-letrec PASS (soln.tyerr; tyerr)
+test-B:p:07-letrec PASS (soln.tyerr; tyerr)
+test-B:p:08-letrec PASS (soln.tyerr; tyerr)
+test-B:p:09-letrec PASS (soln.tychk == tychk)
+test-B:p:10-letrec PASS (soln.tyerr; tyerr)
+letrec PASS
+nil
+test-B:q:01-nil PASS (soln.tychk == tychk)
+nil PASS
+pair
+test-B:r:01-pair PASS (soln.tychk == tychk)
+test-B:r:02-pair PASS (soln.tychk == tychk)
+test-B:r:03-pair PASS (soln.tychk == tychk)
+test-B:r:04-pair PASS (soln.tychk == tychk)
+test-B:r:05-pair PASS (soln.tychk == tychk)
+test-B:r:06-pair PASS (soln.tyerr; tyerr)
+pair PASS
+tylambda
+test-B:s:01-tylambda PASS (soln.tychk == tychk)
+test-B:s:02-tylambda PASS (soln.tychk == tychk)
+test-B:s:03-tylambda PASS (soln.tychk == tychk)
+test-B:s:04-tylambda PASS (soln.tychk == tychk)
+test-B:s:05-tylambda PASS (soln.tychk == tychk)
+test-B:s:06-tylambda PASS (soln.tychk == tychk)
+test-B:s:07-tylambda PASS (soln.tychk == tychk)
+test-B:s:08-tylambda PASS (soln.tyerr; tyerr)
+test-B:s:09-tylambda PASS (soln.tychk == tychk)
+test-B:s:10-tylambda PASS (soln.tyerr; tyerr)
+tylambda PASS
+tyapply
+test-B:t:01-tyapply PASS (soln.tychk == tychk)
+test-B:t:02-tyapply PASS (soln.tychk == tychk)
+test-B:t:03-tyapply PASS (soln.tychk == tychk)
+test-B:t:04-tyapply PASS (soln.tychk == tychk)
+test-B:t:05-tyapply PASS (soln.tychk == tychk)
+test-B:t:06-tyapply PASS (soln.tychk == tychk)
+test-B:t:07-tyapply PASS (soln.tychk == tychk)
+test-B:t:08-tyapply PASS (soln.tyerr; tyerr)
+test-B:t:09-tyapply PASS (soln.tyerr; tyerr)
+test-B:t:10-tyapply PASS (soln.tyerr; tyerr)
+test-B:t:11-tyapply PASS (soln.tyerr; tyerr)
+tyapply PASS
+basis
+test-B:u:01-basis PASS (soln.tychk == tychk)
+basis PASS
+misc
+test-B:v:01-misc PASS (soln.tychk == tychk)
+misc PASS
+renameForallAvoiding
+test-B:w:01-renameForallAvoiding PASS (soln.tyerr; tyerr)
+test-B:w:02-renameForallAvoiding PASS (soln.tychk == tychk)
+test-B:w:03-renameForallAvoiding PASS (soln.tychk == tychk)
+test-B:w:04-renameForallAvoiding PASS (soln.tychk == tychk)
+test-B:w:05-renameForallAvoiding PASS (soln.tychk == tychk)
+renameForallAvoiding PASS

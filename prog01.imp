@@ -1,0 +1,150 @@
+(define abs (n) (if (< n 0) (* -1 n) n))
+(define min (a b) (if (< a b) a b))
+(define max (a b) (if (> a b) a b))
+(define gcd (m n)
+  (if (or (< m 0) (< n 0))
+      (gcd (max m (* -1 m)) (max n (* -1 n)))
+      (if (= n 0)
+          m
+          (gcd n (mod m n)))))
+;; A (Exercise 4)
+;; DEFINE sigma HERE
+(define sigma (m n) 
+    (if (= m n) 
+	m
+        (+ m (sigma (+ m 1) n ))))
+
+;; B.a (Exercise 5a)
+;; DEFINE exp HERE
+(define exp(b n)
+    (if (or (<= b 1) (<= n 0)) 
+	 1
+    (* b (exp b (- n 1) ) ) ))
+
+;; B.b (Exercise 5b)
+;; DEFINE log HERE
+(define log(b m)
+    (if(or (= b 0) (<= m 1)) 
+        1
+        (+ 1 (log b (/ m b) ))))
+;; C (Exercise 6)
+;; DEFINE choose HERE
+(define choose(n k) 
+    (if(or (= k 0) (= k n)) 
+	1 
+    (+ (choose (- n 1) k) (choose (- n 1) (- k 1))) ) )
+
+;; D (Exercise 7)
+;; DEFINE fib HERE
+(define fib(n)
+    (if (= n 0) 0
+        (if (= n 1) 1 
+            (+ (fib(- n 1)) (fib(- n 2))))
+        )
+)
+
+;; E.a (Exercise 8a)
+;; DEFINE prime? HERE
+(val y 2)
+(define prime?(n)
+    (
+        if(<= n 1) 0 
+        (if(= n 2) 1
+        (begin
+        (while (and (< y n) (!= 0 (mod n y) ) ) (set y (+ y 1)))
+        (if (= n y) 1 0)
+        )
+        )
+    )
+)
+
+
+;; E.b (Exercise 8b)
+;; DEFINE nthprime HERE
+(val i 2)
+(define nthprime(n)
+    (begin
+        (while (> n 0)
+            (if (prime? i)
+                (begin 
+                (set n (- n 1))
+                (if (= n 0) i (set i (+ i 1)))
+                )
+                (set i (+ i 1))
+            )
+        )
+        i
+    )
+)
+;; E.c (Exercise 8c)
+;; DEFINE sumprimes HERE
+
+;; E.d (Exercise 8d)
+;; DEFINE relprime? HERE
+
+;; F.a (Exercise 9a)
+;; DEFINE given-positive-all-fours? HERE
+(define  given-positive-all-fours?(n)
+    (if (< n 10)
+        (= 4 n)
+    (if (= 4 (mod n 10))
+        1
+    (given-positive-all-fours? (/ n 10)))))
+
+;; F.b (Exercise 9b)
+;; DEFINE all-fours? HERE
+(define all-fours?(n) (if (> n 0) (given-positive-all-fours? n) 0))
+
+;; F.c (Exercise 9c)
+;; DEFINE all-one-digit? HERE
+(define all-one-digit?(n) 
+    (if(< (abs n) 10)
+        1 0))
+
+;; F.d (Exercise 9d)
+;; DEFINE increasing-digits? HERE
+(define increasing-digits?(n)
+    (if (< n 10)
+        1
+    (if (> (mod n 10) (mod (/ n 10) 10) )
+        (increasing-digits? (/ n 10)) 0)))
+
+;; G (Exercise 10)
+;; DEFINE binary HERE
+
+;; H
+;; DEFINE aliquot-class HERE
+
+;; Ia
+;; DEFINE hailstone-length HERE
+
+(define hailstone-length(n) 
+    (hail-len-helper n 0)
+)
+
+(define hail-len-helper(n c)
+    (if (= n 1)
+        c
+    (if (and (> n 1) (= (mod n 2) 0))
+        (hail-len-helper (/ n 2) (+ c 1))
+
+        (hail-len-helper (+ 1 (* n 3)) (+ c 1))
+    )
+    )
+)
+;; Ib
+;; DEFINE hailstone-max HERE
+(define hailstone-max(n) 
+    (hail-max-helper n 0)
+)
+
+(define hail-max-helper(n c)
+    (if (= n 1)
+        c
+    (if (and (> n 1) (= (mod n 2) 0))
+        (hail-max-helper (/ n 2) (if (> (/ n 2) c) (/ n 2) c ))
+
+        (hail-max-helper (+ 1 (* n 3)) (if (> (+ 1 (* n 3)) c) (+ 1 (* n 3)) c ))
+    )
+    )
+)

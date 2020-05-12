@@ -1,0 +1,2137 @@
+<class XVector>
+<class ArrayXVector>
+<class ConcatXVector>
+<class RepeatXVector>
+<class ReverseXVector>
+<class SwizzleXVector>
+<class BlockXVector>
+<class Unit>
+<class BlockFn1>
+<class BlockFn2>
+<class BlockFn3>
+<class BlockFn4>
+<class XVectorTester>
+Testing xv01
+(at:ifAbsent: xv01 0 {nil}) => Method-stack traceback:
+  Sent 'at:' in standard input, line 166
+  Sent 'elem:' in standard input, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in standard input, line 31
+  Sent 'at:ifAbsent:' in standard input, line 242
+  Sent 'value' in predefined classes, line 534
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in predefined classes, line 533
+  Sent 'do:' in standard input, line 240
+  Sent 'test-at-ifAbsent' in standard input, line 453
+Testing xv02
+(at:ifAbsent: xv02 0 {nil}) => 1
+(at:ifAbsent: xv02 1 {nil}) => Method-stack traceback:
+  Sent 'at:' in standard input, line 166
+  Sent 'elem:' in standard input, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in standard input, line 31
+  Sent 'at:ifAbsent:' in standard input, line 242
+  Sent 'value' in predefined classes, line 534
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 33
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in predefined classes, line 533
+  Sent 'do:' in standard input, line 240
+  Sent 'test-at-ifAbsent' in standard input, line 454
+Testing xv03
+(at:ifAbsent: xv03 0 {nil}) => 1
+(at:ifAbsent: xv03 1 {nil}) => 2
+(at:ifAbsent: xv03 2 {nil}) => 3
+(at:ifAbsent: xv03 3 {nil}) => Method-stack traceback:
+  Sent 'at:' in standard input, line 166
+  Sent 'elem:' in standard input, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in standard input, line 31
+  Sent 'at:ifAbsent:' in standard input, line 242
+  Sent 'value' in predefined classes, line 534
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 33
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 33
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 33
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in predefined classes, line 533
+  Sent 'do:' in standard input, line 240
+  Sent 'test-at-ifAbsent' in standard input, line 455
+Testing xv04
+(at:ifAbsent: xv04 0 {nil}) => 1
+(at:ifAbsent: xv04 1 {nil}) => 2
+(at:ifAbsent: xv04 2 {nil}) => 3
+(at:ifAbsent: xv04 3 {nil}) => 4
+(at:ifAbsent: xv04 4 {nil}) => 5
+(at:ifAbsent: xv04 5 {nil}) => 6
+(at:ifAbsent: xv04 7 {nil}) => Method-stack traceback:
+  Sent 'at:' in standard input, line 166
+  Sent 'elem:' in standard input, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in standard input, line 31
+  Sent 'at:ifAbsent:' in standard input, line 245
+  Sent 'value' in predefined classes, line 534
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in predefined classes, line 533
+  Sent 'do:' in standard input, line 243
+  Sent 'test-at-ifAbsent' in standard input, line 456
+Testing xv05
+(at:ifAbsent: xv05 0 {nil}) => -6
+(at:ifAbsent: xv05 1 {nil}) => Method-stack traceback:
+  Sent 'at:' in standard input, line 166
+  Sent 'elem:' in standard input, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in standard input, line 31
+  Sent 'at:ifAbsent:' in standard input, line 242
+  Sent 'value' in predefined classes, line 534
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 33
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in predefined classes, line 533
+  Sent 'do:' in standard input, line 240
+  Sent 'test-at-ifAbsent' in standard input, line 457
+Testing xv06
+(at:ifAbsent: xv06 0 {nil}) => -6
+(at:ifAbsent: xv06 1 {nil}) => -5
+(at:ifAbsent: xv06 2 {nil}) => -4
+(at:ifAbsent: xv06 3 {nil}) => Method-stack traceback:
+  Sent 'at:' in standard input, line 166
+  Sent 'elem:' in standard input, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in standard input, line 31
+  Sent 'at:ifAbsent:' in standard input, line 242
+  Sent 'value' in predefined classes, line 534
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 33
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 33
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 33
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in predefined classes, line 533
+  Sent 'do:' in standard input, line 240
+  Sent 'test-at-ifAbsent' in standard input, line 458
+Testing xv07
+(at:ifAbsent: xv07 0 {nil}) => -6
+(at:ifAbsent: xv07 1 {nil}) => -5
+(at:ifAbsent: xv07 2 {nil}) => -4
+(at:ifAbsent: xv07 3 {nil}) => -3
+(at:ifAbsent: xv07 4 {nil}) => -2
+(at:ifAbsent: xv07 5 {nil}) => -1
+(at:ifAbsent: xv07 7 {nil}) => Method-stack traceback:
+  Sent 'at:' in standard input, line 166
+  Sent 'elem:' in standard input, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in standard input, line 31
+  Sent 'at:ifAbsent:' in standard input, line 245
+  Sent 'value' in predefined classes, line 534
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in predefined classes, line 533
+  Sent 'do:' in standard input, line 243
+  Sent 'test-at-ifAbsent' in standard input, line 459
+Testing xv08
+(at:ifAbsent: xv08 0 {nil}) => 1
+(at:ifAbsent: xv08 1 {nil}) => 2
+(at:ifAbsent: xv08 2 {nil}) => 3
+(at:ifAbsent: xv08 3 {nil}) => 4
+(at:ifAbsent: xv08 4 {nil}) => 5
+(at:ifAbsent: xv08 5 {nil}) => 6
+(at:ifAbsent: xv08 7 {nil}) => 8
+(at:ifAbsent: xv08 8 {nil}) => 9
+(at:ifAbsent: xv08 9 {nil}) => 10
+(at:ifAbsent: xv08 1073741823 {nil}) => Method-stack traceback:
+  Sent 'at:' in standard input, line 166
+  Sent 'elem:' in standard input, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in standard input, line 31
+  Sent 'at:ifAbsent:' in standard input, line 245
+  Sent 'value' in predefined classes, line 534
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 33
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in predefined classes, line 533
+  Sent 'do:' in standard input, line 243
+  Sent 'test-at-ifAbsent' in standard input, line 460
+Testing xv09
+(at:ifAbsent: xv09 0 {nil}) => 1
+(at:ifAbsent: xv09 1 {nil}) => 4
+(at:ifAbsent: xv09 2 {nil}) => 9
+(at:ifAbsent: xv09 3 {nil}) => 16
+(at:ifAbsent: xv09 4 {nil}) => 25
+(at:ifAbsent: xv09 5 {nil}) => 5
+(at:ifAbsent: xv09 7 {nil}) => 2
+(at:ifAbsent: xv09 8 {nil}) => 19
+(at:ifAbsent: xv09 9 {nil}) => 7
+(at:ifAbsent: xv09 1073741823 {nil}) => Method-stack traceback:
+  Sent 'at:' in standard input, line 166
+  Sent 'elem:' in standard input, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in standard input, line 31
+  Sent 'at:ifAbsent:' in standard input, line 245
+  Sent 'value' in predefined classes, line 534
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 33
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in predefined classes, line 533
+  Sent 'do:' in standard input, line 243
+  Sent 'test-at-ifAbsent' in standard input, line 461
+Testing xv10
+(at:ifAbsent: xv10 0 {nil}) => 1/2
+(at:ifAbsent: xv10 1 {nil}) => 1/3
+(at:ifAbsent: xv10 2 {nil}) => 1/4
+(at:ifAbsent: xv10 3 {nil}) => 1/5
+(at:ifAbsent: xv10 4 {nil}) => 1/6
+(at:ifAbsent: xv10 5 {nil}) => Method-stack traceback:
+  Sent 'at:' in standard input, line 166
+  Sent 'elem:' in standard input, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in standard input, line 31
+  Sent 'at:ifAbsent:' in standard input, line 242
+  Sent 'value' in predefined classes, line 534
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 33
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 33
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 33
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 33
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 33
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in predefined classes, line 533
+  Sent 'do:' in standard input, line 240
+  Sent 'test-at-ifAbsent' in standard input, line 462
+Testing xv11
+(at:ifAbsent: xv11 0 {nil}) => 1/2
+(at:ifAbsent: xv11 1 {nil}) => 4/1
+(at:ifAbsent: xv11 2 {nil}) => 1/6
+(at:ifAbsent: xv11 3 {nil}) => 8/1
+(at:ifAbsent: xv11 4 {nil}) => 1/10
+(at:ifAbsent: xv11 5 {nil}) => 12/1
+(at:ifAbsent: xv11 7 {nil}) => 16/1
+(at:ifAbsent: xv11 8 {nil}) => 1/18
+(at:ifAbsent: xv11 9 {nil}) => 20/1
+(at:ifAbsent: xv11 1073741823 {nil}) => Method-stack traceback:
+  Sent 'at:' in standard input, line 166
+  Sent 'elem:' in standard input, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in standard input, line 31
+  Sent 'at:ifAbsent:' in standard input, line 245
+  Sent 'value' in predefined classes, line 534
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 33
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in predefined classes, line 533
+  Sent 'do:' in standard input, line 243
+  Sent 'test-at-ifAbsent' in standard input, line 463
+Testing xv12
+(at:ifAbsent: xv12 0 {nil}) => <True>
+(at:ifAbsent: xv12 1 {nil}) => <False>
+(at:ifAbsent: xv12 2 {nil}) => Method-stack traceback:
+  Sent 'at:' in standard input, line 166
+  Sent 'elem:' in standard input, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in standard input, line 31
+  Sent 'at:ifAbsent:' in standard input, line 242
+  Sent 'value' in predefined classes, line 534
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 33
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 33
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in predefined classes, line 533
+  Sent 'do:' in standard input, line 240
+  Sent 'test-at-ifAbsent' in standard input, line 464
+Testing xv13
+(at:ifAbsent: xv13 0 {nil}) => nil
+(at:ifAbsent: xv13 1 {nil}) => Method-stack traceback:
+  Sent 'at:' in standard input, line 166
+  Sent 'elem:' in standard input, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in standard input, line 31
+  Sent 'at:ifAbsent:' in standard input, line 242
+  Sent 'value' in predefined classes, line 534
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 33
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in predefined classes, line 533
+  Sent 'do:' in standard input, line 240
+  Sent 'test-at-ifAbsent' in standard input, line 465
+Testing xv01
+(print xv01) => << >>
+(detect:ifNone: xv01 negative) => nil
+(detect:ifNone: xv01 nonnegative) => nil
+(detect:ifNone: xv01 strictlyPositive) => nil
+(detect:ifNone: xv01 negative) => <False>
+(detect:ifNone: xv01 nonnegative) => <False>
+(detect:ifNone: xv01 strictlyPositive) => <False>
+(detect:ifNone: xv01 negative) => <True>
+(detect:ifNone: xv01 nonnegative) => <True>
+(detect:ifNone: xv01 strictlyPositive) => <True>
+Testing xv02
+(print xv02) => << 1 >>
+(includes: xv02 nil) => <False>
+(occurrencesOf: xv02 nil) => 0
+(includes: xv02 <True>) => <False>
+(occurrencesOf: xv02 <True>) => 0
+(includes: xv02 <False>) => <False>
+(occurrencesOf: xv02 <False>) => 0
+(includes: xv02 0) => <False>
+(occurrencesOf: xv02 0) => 0
+(includes: xv02 1) => <True>
+(occurrencesOf: xv02 1) => 1
+(includes: xv02 2) => <False>
+(occurrencesOf: xv02 2) => 0
+(includes: xv02 42) => <False>
+(occurrencesOf: xv02 42) => 0
+(detect:ifNone: xv02 negative) => nil
+(detect:ifNone: xv02 nonnegative) => 1
+(detect:ifNone: xv02 strictlyPositive) => 1
+(detect:ifNone: xv02 negative) => <False>
+(detect:ifNone: xv02 nonnegative) => 1
+(detect:ifNone: xv02 strictlyPositive) => 1
+(detect:ifNone: xv02 negative) => <True>
+(detect:ifNone: xv02 nonnegative) => 1
+(detect:ifNone: xv02 strictlyPositive) => 1
+Testing xv03
+(print xv03) => << 1 2 3 >>
+(includes: xv03 nil) => <False>
+(occurrencesOf: xv03 nil) => 0
+(includes: xv03 <True>) => <False>
+(occurrencesOf: xv03 <True>) => 0
+(includes: xv03 <False>) => <False>
+(occurrencesOf: xv03 <False>) => 0
+(includes: xv03 0) => <False>
+(occurrencesOf: xv03 0) => 0
+(includes: xv03 1) => <True>
+(occurrencesOf: xv03 1) => 1
+(includes: xv03 2) => <True>
+(occurrencesOf: xv03 2) => 1
+(includes: xv03 42) => <False>
+(occurrencesOf: xv03 42) => 0
+(detect:ifNone: xv03 negative) => nil
+(detect:ifNone: xv03 nonnegative) => 1
+(detect:ifNone: xv03 strictlyPositive) => 1
+(detect:ifNone: xv03 negative) => <False>
+(detect:ifNone: xv03 nonnegative) => 1
+(detect:ifNone: xv03 strictlyPositive) => 1
+(detect:ifNone: xv03 negative) => <True>
+(detect:ifNone: xv03 nonnegative) => 1
+(detect:ifNone: xv03 strictlyPositive) => 1
+Testing xv04
+(print xv04) => << 1 2 3 4 5 6 >>
+(includes: xv04 nil) => <False>
+(occurrencesOf: xv04 nil) => 0
+(includes: xv04 <True>) => <False>
+(occurrencesOf: xv04 <True>) => 0
+(includes: xv04 <False>) => <False>
+(occurrencesOf: xv04 <False>) => 0
+(includes: xv04 0) => <False>
+(occurrencesOf: xv04 0) => 0
+(includes: xv04 1) => <True>
+(occurrencesOf: xv04 1) => 1
+(includes: xv04 2) => <True>
+(occurrencesOf: xv04 2) => 1
+(includes: xv04 42) => <False>
+(occurrencesOf: xv04 42) => 0
+(detect:ifNone: xv04 negative) => nil
+(detect:ifNone: xv04 nonnegative) => 1
+(detect:ifNone: xv04 strictlyPositive) => 1
+(detect:ifNone: xv04 negative) => <False>
+(detect:ifNone: xv04 nonnegative) => 1
+(detect:ifNone: xv04 strictlyPositive) => 1
+(detect:ifNone: xv04 negative) => <True>
+(detect:ifNone: xv04 nonnegative) => 1
+(detect:ifNone: xv04 strictlyPositive) => 1
+Testing xv05
+(print xv05) => << -6 >>
+(includes: xv05 nil) => <False>
+(occurrencesOf: xv05 nil) => 0
+(includes: xv05 <True>) => <False>
+(occurrencesOf: xv05 <True>) => 0
+(includes: xv05 <False>) => <False>
+(occurrencesOf: xv05 <False>) => 0
+(includes: xv05 0) => <False>
+(occurrencesOf: xv05 0) => 0
+(includes: xv05 1) => <False>
+(occurrencesOf: xv05 1) => 0
+(includes: xv05 2) => <False>
+(occurrencesOf: xv05 2) => 0
+(includes: xv05 42) => <False>
+(occurrencesOf: xv05 42) => 0
+(detect:ifNone: xv05 negative) => -6
+(detect:ifNone: xv05 nonnegative) => nil
+(detect:ifNone: xv05 strictlyPositive) => nil
+(detect:ifNone: xv05 negative) => -6
+(detect:ifNone: xv05 nonnegative) => <False>
+(detect:ifNone: xv05 strictlyPositive) => <False>
+(detect:ifNone: xv05 negative) => -6
+(detect:ifNone: xv05 nonnegative) => <True>
+(detect:ifNone: xv05 strictlyPositive) => <True>
+Testing xv06
+(print xv06) => << -6 -5 -4 >>
+(includes: xv06 nil) => <False>
+(occurrencesOf: xv06 nil) => 0
+(includes: xv06 <True>) => <False>
+(occurrencesOf: xv06 <True>) => 0
+(includes: xv06 <False>) => <False>
+(occurrencesOf: xv06 <False>) => 0
+(includes: xv06 0) => <False>
+(occurrencesOf: xv06 0) => 0
+(includes: xv06 1) => <False>
+(occurrencesOf: xv06 1) => 0
+(includes: xv06 2) => <False>
+(occurrencesOf: xv06 2) => 0
+(includes: xv06 42) => <False>
+(occurrencesOf: xv06 42) => 0
+(detect:ifNone: xv06 negative) => -6
+(detect:ifNone: xv06 nonnegative) => nil
+(detect:ifNone: xv06 strictlyPositive) => nil
+(detect:ifNone: xv06 negative) => -6
+(detect:ifNone: xv06 nonnegative) => <False>
+(detect:ifNone: xv06 strictlyPositive) => <False>
+(detect:ifNone: xv06 negative) => -6
+(detect:ifNone: xv06 nonnegative) => <True>
+(detect:ifNone: xv06 strictlyPositive) => <True>
+Testing xv07
+(print xv07) => << -6 -5 -4 -3 -2 -1 >>
+(includes: xv07 nil) => <False>
+(occurrencesOf: xv07 nil) => 0
+(includes: xv07 <True>) => <False>
+(occurrencesOf: xv07 <True>) => 0
+(includes: xv07 <False>) => <False>
+(occurrencesOf: xv07 <False>) => 0
+(includes: xv07 0) => <False>
+(occurrencesOf: xv07 0) => 0
+(includes: xv07 1) => <False>
+(occurrencesOf: xv07 1) => 0
+(includes: xv07 2) => <False>
+(occurrencesOf: xv07 2) => 0
+(includes: xv07 42) => <False>
+(occurrencesOf: xv07 42) => 0
+(detect:ifNone: xv07 negative) => -6
+(detect:ifNone: xv07 nonnegative) => nil
+(detect:ifNone: xv07 strictlyPositive) => nil
+(detect:ifNone: xv07 negative) => -6
+(detect:ifNone: xv07 nonnegative) => <False>
+(detect:ifNone: xv07 strictlyPositive) => <False>
+(detect:ifNone: xv07 negative) => -6
+(detect:ifNone: xv07 nonnegative) => <True>
+(detect:ifNone: xv07 strictlyPositive) => <True>
+Testing xv08
+(print xv08) => << 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 >>
+(includes: xv08 nil) => <False>
+(occurrencesOf: xv08 nil) => 0
+(includes: xv08 <True>) => <False>
+(occurrencesOf: xv08 <True>) => 0
+(includes: xv08 <False>) => <False>
+(occurrencesOf: xv08 <False>) => 0
+(includes: xv08 0) => <False>
+(occurrencesOf: xv08 0) => 0
+(includes: xv08 1) => <True>
+(occurrencesOf: xv08 1) => 1
+(includes: xv08 2) => <True>
+(occurrencesOf: xv08 2) => 1
+(includes: xv08 42) => <False>
+(occurrencesOf: xv08 42) => 0
+(detect:ifNone: xv08 negative) => nil
+(detect:ifNone: xv08 nonnegative) => 1
+(detect:ifNone: xv08 strictlyPositive) => 1
+(detect:ifNone: xv08 negative) => <False>
+(detect:ifNone: xv08 nonnegative) => 1
+(detect:ifNone: xv08 strictlyPositive) => 1
+(detect:ifNone: xv08 negative) => <True>
+(detect:ifNone: xv08 nonnegative) => 1
+(detect:ifNone: xv08 strictlyPositive) => 1
+Testing xv09
+(print xv09) => << 1 4 9 16 25 5 18 2 19 7 28 20 14 10 8 >>
+(includes: xv09 nil) => <False>
+(occurrencesOf: xv09 nil) => 0
+(includes: xv09 <True>) => <False>
+(occurrencesOf: xv09 <True>) => 0
+(includes: xv09 <False>) => <False>
+(occurrencesOf: xv09 <False>) => 0
+(includes: xv09 0) => <False>
+(occurrencesOf: xv09 0) => 0
+(includes: xv09 1) => <True>
+(occurrencesOf: xv09 1) => 1
+(includes: xv09 2) => <True>
+(occurrencesOf: xv09 2) => 1
+(includes: xv09 42) => <False>
+(occurrencesOf: xv09 42) => 0
+(detect:ifNone: xv09 negative) => nil
+(detect:ifNone: xv09 nonnegative) => 1
+(detect:ifNone: xv09 strictlyPositive) => 1
+(detect:ifNone: xv09 negative) => <False>
+(detect:ifNone: xv09 nonnegative) => 1
+(detect:ifNone: xv09 strictlyPositive) => 1
+(detect:ifNone: xv09 negative) => <True>
+(detect:ifNone: xv09 nonnegative) => 1
+(detect:ifNone: xv09 strictlyPositive) => 1
+Testing xv10
+(print xv10) => << 1/2 1/3 1/4 1/5 1/6 >>
+(detect:ifNone: xv10 negative) => nil
+(detect:ifNone: xv10 nonnegative) => 1/2
+(detect:ifNone: xv10 strictlyPositive) => 1/2
+(detect:ifNone: xv10 negative) => <False>
+(detect:ifNone: xv10 nonnegative) => 1/2
+(detect:ifNone: xv10 strictlyPositive) => 1/2
+(detect:ifNone: xv10 negative) => <True>
+(detect:ifNone: xv10 nonnegative) => 1/2
+(detect:ifNone: xv10 strictlyPositive) => 1/2
+Testing xv11
+(print xv11) => << 1/2 4/1 1/6 8/1 1/10 12/1 1/14 16/1 1/18 20/1 >>
+(detect:ifNone: xv11 negative) => nil
+(detect:ifNone: xv11 nonnegative) => 1/2
+(detect:ifNone: xv11 strictlyPositive) => 1/2
+(detect:ifNone: xv11 negative) => <False>
+(detect:ifNone: xv11 nonnegative) => 1/2
+(detect:ifNone: xv11 strictlyPositive) => 1/2
+(detect:ifNone: xv11 negative) => <True>
+(detect:ifNone: xv11 nonnegative) => 1/2
+(detect:ifNone: xv11 strictlyPositive) => 1/2
+Testing xv12
+(print xv12) => << <True> <False> >>
+(includes: xv12 nil) => <False>
+(occurrencesOf: xv12 nil) => 0
+(includes: xv12 <True>) => <True>
+(occurrencesOf: xv12 <True>) => 1
+(includes: xv12 <False>) => <True>
+(occurrencesOf: xv12 <False>) => 1
+(includes: xv12 0) => <False>
+(occurrencesOf: xv12 0) => 0
+(includes: xv12 1) => <False>
+(occurrencesOf: xv12 1) => 0
+(includes: xv12 2) => <False>
+(occurrencesOf: xv12 2) => 0
+(includes: xv12 42) => <False>
+(occurrencesOf: xv12 42) => 0
+Testing xv13
+(print xv13) => << nil >>
+(includes: xv13 nil) => <True>
+(occurrencesOf: xv13 nil) => 1
+(includes: xv13 <True>) => <False>
+(occurrencesOf: xv13 <True>) => 0
+(includes: xv13 <False>) => <False>
+(occurrencesOf: xv13 <False>) => 0
+(includes: xv13 0) => <False>
+(occurrencesOf: xv13 0) => 0
+(includes: xv13 1) => <False>
+(occurrencesOf: xv13 1) => 0
+(includes: xv13 2) => <False>
+(occurrencesOf: xv13 2) => 0
+(includes: xv13 42) => <False>
+(occurrencesOf: xv13 42) => 0
+Testing xv01
+(sum xv01) => 0
+Testing xv02
+(sum xv02) => 1
+Testing xv03
+(sum xv03) => 6
+Testing xv04
+(sum xv04) => 21
+Testing xv05
+(sum xv05) => -6
+Testing xv06
+(sum xv06) => -15
+Testing xv07
+(sum xv07) => -21
+Testing xv08
+(sum xv08) => 120
+Testing xv09
+(sum xv09) => 186
+Testing xv10
+(sum xv10) => 29/20
+Testing xv11
+(sum xv11) => 38363/630
+Testing xv12
+Testing xv13
+Testing xv01
+(product xv01) => 1
+Testing xv02
+(product xv02) => 1
+Testing xv03
+(product xv03) => 6
+Testing xv04
+(product xv04) => 720
+Testing xv05
+(product xv05) => -6
+Testing xv06
+(product xv06) => -120
+Testing xv07
+(product xv07) => 720
+Testing xv08
+Testing xv09
+Testing xv10
+(product xv10) => 1/720
+Testing xv11
+(product xv11) => 256/63
+Testing xv12
+Testing xv13
+Testing xv01
+Testing xv02
+(min xv02) => 1
+Testing xv03
+(min xv03) => 1
+Testing xv04
+(min xv04) => 1
+Testing xv05
+(min xv05) => -6
+Testing xv06
+(min xv06) => -6
+Testing xv07
+(min xv07) => -6
+Testing xv08
+(min xv08) => 1
+Testing xv09
+(min xv09) => 1
+Testing xv10
+(min xv10) => 1/6
+Testing xv11
+(min xv11) => 1/18
+Testing xv12
+Testing xv13
+Testing xv01
+Testing xv02
+(max xv02) => 1
+Testing xv03
+(max xv03) => 3
+Testing xv04
+(max xv04) => 6
+Testing xv05
+(max xv05) => -6
+Testing xv06
+(max xv06) => -4
+Testing xv07
+(max xv07) => -1
+Testing xv08
+(max xv08) => 15
+Testing xv09
+(max xv09) => 28
+Testing xv10
+(max xv10) => 1/2
+Testing xv11
+(max xv11) => 20/1
+Testing xv12
+Testing xv13
+Testing xv01
+(similar: xv01 nil) => <False>
+(similar: xv01 <True>) => <False>
+(similar: xv01 <False>) => <False>
+(similar: xv01 0) => <False>
+(similar: xv01 1) => <False>
+(similar: xv01 2) => <False>
+(similar: xv01 42) => <False>
+(similar: xv01 xv01) => <True>
+(similar: xv01 xv02) => <False>
+(similar: xv01 xv03) => <False>
+(similar: xv01 xv04) => <False>
+(similar: xv01 xv05) => <False>
+(similar: xv01 xv06) => <False>
+(similar: xv01 xv07) => <False>
+(similar: xv01 xv08) => <False>
+(similar: xv01 xv09) => <False>
+(similar: xv01 xv10) => <False>
+(similar: xv01 xv11) => <False>
+(similar: xv01 xv12) => <False>
+(similar: xv01 xv13) => <False>
+Testing xv02
+(similar: xv02 nil) => <False>
+(similar: xv02 <True>) => <False>
+(similar: xv02 <False>) => <False>
+(similar: xv02 0) => <False>
+(similar: xv02 1) => <False>
+(similar: xv02 2) => <False>
+(similar: xv02 42) => <False>
+(similar: xv02 xv01) => <False>
+(similar: xv02 xv02) => <True>
+(similar: xv02 xv03) => <False>
+(similar: xv02 xv04) => <False>
+(similar: xv02 xv05) => <False>
+(similar: xv02 xv06) => <False>
+(similar: xv02 xv07) => <False>
+(similar: xv02 xv08) => <False>
+(similar: xv02 xv09) => <False>
+(similar: xv02 xv12) => <False>
+(similar: xv02 xv13) => <False>
+Testing xv03
+(similar: xv03 nil) => <False>
+(similar: xv03 <True>) => <False>
+(similar: xv03 <False>) => <False>
+(similar: xv03 0) => <False>
+(similar: xv03 1) => <False>
+(similar: xv03 2) => <False>
+(similar: xv03 42) => <False>
+(similar: xv03 xv01) => <False>
+(similar: xv03 xv02) => <False>
+(similar: xv03 xv03) => <True>
+(similar: xv03 xv04) => <False>
+(similar: xv03 xv05) => <False>
+(similar: xv03 xv06) => <False>
+(similar: xv03 xv07) => <False>
+(similar: xv03 xv08) => <False>
+(similar: xv03 xv09) => <False>
+(similar: xv03 xv12) => <False>
+(similar: xv03 xv13) => <False>
+Testing xv04
+(similar: xv04 nil) => <False>
+(similar: xv04 <True>) => <False>
+(similar: xv04 <False>) => <False>
+(similar: xv04 0) => <False>
+(similar: xv04 1) => <False>
+(similar: xv04 2) => <False>
+(similar: xv04 42) => <False>
+(similar: xv04 xv01) => <False>
+(similar: xv04 xv02) => <False>
+(similar: xv04 xv03) => <False>
+(similar: xv04 xv04) => <True>
+(similar: xv04 xv05) => <False>
+(similar: xv04 xv06) => <False>
+(similar: xv04 xv07) => <False>
+(similar: xv04 xv08) => <False>
+(similar: xv04 xv09) => <False>
+(similar: xv04 xv12) => <False>
+(similar: xv04 xv13) => <False>
+Testing xv05
+(similar: xv05 nil) => <False>
+(similar: xv05 <True>) => <False>
+(similar: xv05 <False>) => <False>
+(similar: xv05 0) => <False>
+(similar: xv05 1) => <False>
+(similar: xv05 2) => <False>
+(similar: xv05 42) => <False>
+(similar: xv05 xv01) => <False>
+(similar: xv05 xv02) => <False>
+(similar: xv05 xv03) => <False>
+(similar: xv05 xv04) => <False>
+(similar: xv05 xv05) => <True>
+(similar: xv05 xv06) => <False>
+(similar: xv05 xv07) => <False>
+(similar: xv05 xv08) => <False>
+(similar: xv05 xv09) => <False>
+(similar: xv05 xv12) => <False>
+(similar: xv05 xv13) => <False>
+Testing xv06
+(similar: xv06 nil) => <False>
+(similar: xv06 <True>) => <False>
+(similar: xv06 <False>) => <False>
+(similar: xv06 0) => <False>
+(similar: xv06 1) => <False>
+(similar: xv06 2) => <False>
+(similar: xv06 42) => <False>
+(similar: xv06 xv01) => <False>
+(similar: xv06 xv02) => <False>
+(similar: xv06 xv03) => <False>
+(similar: xv06 xv04) => <False>
+(similar: xv06 xv05) => <False>
+(similar: xv06 xv06) => <True>
+(similar: xv06 xv07) => <False>
+(similar: xv06 xv08) => <False>
+(similar: xv06 xv09) => <False>
+(similar: xv06 xv12) => <False>
+(similar: xv06 xv13) => <False>
+Testing xv07
+(similar: xv07 nil) => <False>
+(similar: xv07 <True>) => <False>
+(similar: xv07 <False>) => <False>
+(similar: xv07 0) => <False>
+(similar: xv07 1) => <False>
+(similar: xv07 2) => <False>
+(similar: xv07 42) => <False>
+(similar: xv07 xv01) => <False>
+(similar: xv07 xv02) => <False>
+(similar: xv07 xv03) => <False>
+(similar: xv07 xv04) => <False>
+(similar: xv07 xv05) => <False>
+(similar: xv07 xv06) => <False>
+(similar: xv07 xv07) => <True>
+(similar: xv07 xv08) => <False>
+(similar: xv07 xv09) => <False>
+(similar: xv07 xv12) => <False>
+(similar: xv07 xv13) => <False>
+Testing xv08
+(similar: xv08 nil) => <False>
+(similar: xv08 <True>) => <False>
+(similar: xv08 <False>) => <False>
+(similar: xv08 0) => <False>
+(similar: xv08 1) => <False>
+(similar: xv08 2) => <False>
+(similar: xv08 42) => <False>
+(similar: xv08 xv01) => <False>
+(similar: xv08 xv02) => <False>
+(similar: xv08 xv03) => <False>
+(similar: xv08 xv04) => <False>
+(similar: xv08 xv05) => <False>
+(similar: xv08 xv06) => <False>
+(similar: xv08 xv07) => <False>
+(similar: xv08 xv08) => <True>
+(similar: xv08 xv09) => <False>
+(similar: xv08 xv12) => <False>
+(similar: xv08 xv13) => <False>
+Testing xv09
+(similar: xv09 nil) => <False>
+(similar: xv09 <True>) => <False>
+(similar: xv09 <False>) => <False>
+(similar: xv09 0) => <False>
+(similar: xv09 1) => <False>
+(similar: xv09 2) => <False>
+(similar: xv09 42) => <False>
+(similar: xv09 xv01) => <False>
+(similar: xv09 xv02) => <False>
+(similar: xv09 xv03) => <False>
+(similar: xv09 xv04) => <False>
+(similar: xv09 xv05) => <False>
+(similar: xv09 xv06) => <False>
+(similar: xv09 xv07) => <False>
+(similar: xv09 xv08) => <False>
+(similar: xv09 xv09) => <True>
+(similar: xv09 xv12) => <False>
+(similar: xv09 xv13) => <False>
+Testing xv10
+(similar: xv10 nil) => <False>
+(similar: xv10 <True>) => <False>
+(similar: xv10 <False>) => <False>
+(similar: xv10 0) => <False>
+(similar: xv10 1) => <False>
+(similar: xv10 2) => <False>
+(similar: xv10 42) => <False>
+(similar: xv10 xv01) => <False>
+(similar: xv10 xv10) => <True>
+(similar: xv10 xv11) => <False>
+Testing xv11
+(similar: xv11 nil) => <False>
+(similar: xv11 <True>) => <False>
+(similar: xv11 <False>) => <False>
+(similar: xv11 0) => <False>
+(similar: xv11 1) => <False>
+(similar: xv11 2) => <False>
+(similar: xv11 42) => <False>
+(similar: xv11 xv01) => <False>
+(similar: xv11 xv10) => <False>
+(similar: xv11 xv11) => <True>
+Testing xv12
+(similar: xv12 nil) => <False>
+(similar: xv12 <True>) => <False>
+(similar: xv12 <False>) => <False>
+(similar: xv12 0) => <False>
+(similar: xv12 1) => <False>
+(similar: xv12 2) => <False>
+(similar: xv12 42) => <False>
+(similar: xv12 xv01) => <False>
+(similar: xv12 xv02) => <False>
+(similar: xv12 xv03) => <False>
+(similar: xv12 xv04) => <False>
+(similar: xv12 xv05) => <False>
+(similar: xv12 xv06) => <False>
+(similar: xv12 xv07) => <False>
+(similar: xv12 xv08) => <False>
+(similar: xv12 xv09) => <False>
+(similar: xv12 xv12) => <True>
+(similar: xv12 xv13) => <False>
+Testing xv13
+(similar: xv13 nil) => <False>
+(similar: xv13 <True>) => <False>
+(similar: xv13 <False>) => <False>
+(similar: xv13 0) => <False>
+(similar: xv13 1) => <False>
+(similar: xv13 2) => <False>
+(similar: xv13 42) => <False>
+(similar: xv13 xv01) => <False>
+(similar: xv13 xv02) => <False>
+(similar: xv13 xv03) => <False>
+(similar: xv13 xv04) => <False>
+(similar: xv13 xv05) => <False>
+(similar: xv13 xv06) => <False>
+(similar: xv13 xv07) => <False>
+(similar: xv13 xv08) => <False>
+(similar: xv13 xv09) => <False>
+(similar: xv13 xv12) => <False>
+(similar: xv13 xv13) => <True>
+Testing xv01
+(< xv01 xv01) => Method-stack traceback:
+  Sent 'while:' in standard input, line 127
+  Sent '<' in standard input, line 368
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 6
+  Sent 'ifTrue:' in standard input, line 367
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in standard input, line 358
+  Sent 'test-lt::' in standard input, line 558
+Testing xv02
+(< xv02 xv01) => Method-stack traceback:
+  Sent 'while:' in standard input, line 127
+  Sent '<' in standard input, line 368
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 6
+  Sent 'ifTrue:' in standard input, line 367
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in standard input, line 358
+  Sent 'test-lt::' in standard input, line 559
+Testing xv03
+(< xv03 xv01) => Method-stack traceback:
+  Sent 'while:' in standard input, line 127
+  Sent '<' in standard input, line 368
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 6
+  Sent 'ifTrue:' in standard input, line 367
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in standard input, line 358
+  Sent 'test-lt::' in standard input, line 560
+Testing xv04
+(< xv04 xv01) => Method-stack traceback:
+  Sent 'while:' in standard input, line 127
+  Sent '<' in standard input, line 368
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 6
+  Sent 'ifTrue:' in standard input, line 367
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in standard input, line 358
+  Sent 'test-lt::' in standard input, line 561
+Testing xv05
+(< xv05 xv01) => Method-stack traceback:
+  Sent 'while:' in standard input, line 127
+  Sent '<' in standard input, line 368
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 6
+  Sent 'ifTrue:' in standard input, line 367
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in standard input, line 358
+  Sent 'test-lt::' in standard input, line 562
+Testing xv06
+(< xv06 xv01) => Method-stack traceback:
+  Sent 'while:' in standard input, line 127
+  Sent '<' in standard input, line 368
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 6
+  Sent 'ifTrue:' in standard input, line 367
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in standard input, line 358
+  Sent 'test-lt::' in standard input, line 563
+Testing xv07
+(< xv07 xv01) => Method-stack traceback:
+  Sent 'while:' in standard input, line 127
+  Sent '<' in standard input, line 368
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 6
+  Sent 'ifTrue:' in standard input, line 367
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in standard input, line 358
+  Sent 'test-lt::' in standard input, line 564
+Testing xv08
+(< xv08 xv01) => Method-stack traceback:
+  Sent 'while:' in standard input, line 127
+  Sent '<' in standard input, line 368
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 6
+  Sent 'ifTrue:' in standard input, line 367
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in standard input, line 358
+  Sent 'test-lt::' in standard input, line 565
+Testing xv09
+(< xv09 xv01) => Method-stack traceback:
+  Sent 'while:' in standard input, line 127
+  Sent '<' in standard input, line 368
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 6
+  Sent 'ifTrue:' in standard input, line 367
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in standard input, line 358
+  Sent 'test-lt::' in standard input, line 566
+Testing xv10
+(< xv10 xv01) => Method-stack traceback:
+  Sent 'while:' in standard input, line 127
+  Sent '<' in standard input, line 368
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 6
+  Sent 'ifTrue:' in standard input, line 367
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in standard input, line 358
+  Sent 'test-lt::' in standard input, line 567
+Testing xv11
+(< xv11 xv01) => Method-stack traceback:
+  Sent 'while:' in standard input, line 127
+  Sent '<' in standard input, line 368
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 6
+  Sent 'ifTrue:' in standard input, line 367
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in standard input, line 358
+  Sent 'test-lt::' in standard input, line 568
+Testing xv12
+Testing xv13
+Testing xv01
+Testing xv02
+Testing xv03
+Testing xv04
+(fromIndex:toIndex: xv04 0 0) => Method-stack traceback:
+  Sent 'error:' in standard input, line 155
+  Sent 'fromIndex:toIndex:' in standard input, line 378
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in standard input, line 377
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 6
+  Sent 'ifTrue:' in standard input, line 375
+  Sent 'test-fromIndex-toIndex' in standard input, line 576
+Testing xv05
+Testing xv06
+Testing xv07
+(fromIndex:toIndex: xv07 0 0) => Method-stack traceback:
+  Sent 'error:' in standard input, line 155
+  Sent 'fromIndex:toIndex:' in standard input, line 378
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in standard input, line 377
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 6
+  Sent 'ifTrue:' in standard input, line 375
+  Sent 'test-fromIndex-toIndex' in standard input, line 579
+Testing xv08
+(fromIndex:toIndex: xv08 0 0) => Method-stack traceback:
+  Sent 'error:' in standard input, line 155
+  Sent 'fromIndex:toIndex:' in standard input, line 378
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in standard input, line 377
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 6
+  Sent 'ifTrue:' in standard input, line 375
+  Sent 'test-fromIndex-toIndex' in standard input, line 580
+Testing xv09
+(fromIndex:toIndex: xv09 0 0) => Method-stack traceback:
+  Sent 'error:' in standard input, line 155
+  Sent 'fromIndex:toIndex:' in standard input, line 378
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in standard input, line 377
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 6
+  Sent 'ifTrue:' in standard input, line 375
+  Sent 'test-fromIndex-toIndex' in standard input, line 581
+Testing xv10
+Testing xv11
+(fromIndex:toIndex: xv11 0 0) => Method-stack traceback:
+  Sent 'error:' in standard input, line 155
+  Sent 'fromIndex:toIndex:' in standard input, line 378
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in standard input, line 377
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 6
+  Sent 'ifTrue:' in standard input, line 375
+  Sent 'test-fromIndex-toIndex' in standard input, line 583
+Testing xv12
+Testing xv13
+<class Array>
+Testing xv01
+Testing xv02
+Testing xv03
+Testing xv04
+(fromIndex:toIndex: xv04 0 0) => Method-stack traceback:
+  Sent 'error:' in standard input, line 155
+  Sent 'fromIndex:toIndex:' in standard input, line 378
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in standard input, line 377
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 6
+  Sent 'ifTrue:' in standard input, line 375
+  Sent 'test-fromIndex-toIndex' in standard input, line 596
+Testing xv05
+Testing xv06
+Testing xv07
+(fromIndex:toIndex: xv07 0 0) => Method-stack traceback:
+  Sent 'error:' in standard input, line 155
+  Sent 'fromIndex:toIndex:' in standard input, line 378
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in standard input, line 377
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 6
+  Sent 'ifTrue:' in standard input, line 375
+  Sent 'test-fromIndex-toIndex' in standard input, line 599
+Testing xv08
+(fromIndex:toIndex: xv08 0 0) => Method-stack traceback:
+  Sent 'error:' in standard input, line 155
+  Sent 'fromIndex:toIndex:' in standard input, line 378
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in standard input, line 377
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 6
+  Sent 'ifTrue:' in standard input, line 375
+  Sent 'test-fromIndex-toIndex' in standard input, line 600
+Testing xv09
+(fromIndex:toIndex: xv09 0 0) => Method-stack traceback:
+  Sent 'error:' in standard input, line 155
+  Sent 'fromIndex:toIndex:' in standard input, line 378
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in standard input, line 377
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 6
+  Sent 'ifTrue:' in standard input, line 375
+  Sent 'test-fromIndex-toIndex' in standard input, line 601
+Testing xv10
+Testing xv11
+(fromIndex:toIndex: xv11 0 0) => Method-stack traceback:
+  Sent 'error:' in standard input, line 155
+  Sent 'fromIndex:toIndex:' in standard input, line 378
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in standard input, line 377
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 6
+  Sent 'ifTrue:' in standard input, line 375
+  Sent 'test-fromIndex-toIndex' in standard input, line 603
+Testing xv12
+Testing xv13
+<class Array>
+Method-stack traceback:
+  Sent 'error:' in standard input, line 171
+  Sent 'withXV1:withXV2:' in standard input, line 613
+Method-stack traceback:
+  Sent 'error:' in standard input, line 171
+  Sent 'withXV1:withXV2:' in standard input, line 615
+Method-stack traceback:
+  Sent 'error:' in standard input, line 171
+  Sent 'withXV1:withXV2:' in standard input, line 617
+Method-stack traceback:
+  Sent 'error:' in standard input, line 179
+  Sent 'withXV:withN:' in standard input, line 621
+Method-stack traceback:
+  Sent 'error:' in standard input, line 179
+  Sent 'withXV:withN:' in standard input, line 623
+Method-stack traceback:
+  Sent 'error:' in standard input, line 179
+  Sent 'withXV:withN:' in standard input, line 625
+Method-stack traceback:
+  Sent 'error:' in standard input, line 179
+  Sent 'withXV:withN:' in standard input, line 627
+Method-stack traceback:
+  Sent 'error:' in standard input, line 187
+  Sent 'withXV:' in standard input, line 631
+Method-stack traceback:
+  Sent 'error:' in standard input, line 187
+  Sent 'withXV:' in standard input, line 633
+Method-stack traceback:
+  Sent 'error:' in standard input, line 187
+  Sent 'withXV:' in standard input, line 635
+Method-stack traceback:
+  Sent 'error:' in standard input, line 187
+  Sent 'withXV:' in standard input, line 637
+Method-stack traceback:
+  Sent 'error:' in standard input, line 187
+  Sent 'withXV:' in standard input, line 639
+Method-stack traceback:
+  Sent 'error:' in standard input, line 195
+  Sent 'withXV1:withXV2:' in standard input, line 643
+Method-stack traceback:
+  Sent 'error:' in standard input, line 195
+  Sent 'withXV1:withXV2:' in standard input, line 645
+Method-stack traceback:
+  Sent 'error:' in standard input, line 195
+  Sent 'withXV1:withXV2:' in standard input, line 647
+Method-stack traceback:
+  Sent 'error:' in standard input, line 195
+  Sent 'withXV1:withXV2:' in standard input, line 649
+Method-stack traceback:
+  Sent 'error:' in standard input, line 195
+  Sent 'withXV1:withXV2:' in standard input, line 651
+Method-stack traceback:
+  Sent 'error:' in standard input, line 195
+  Sent 'withXV1:withXV2:' in standard input, line 653
+Method-stack traceback:
+  Sent 'error:' in standard input, line 195
+  Sent 'withXV1:withXV2:' in standard input, line 655
+Method-stack traceback:
+  Sent 'error:' in standard input, line 203
+  Sent 'withN:withBlock:' in standard input, line 659
+Method-stack traceback:
+  Sent 'error:' in standard input, line 203
+  Sent 'withN:withBlock:' in standard input, line 661
+Testing cxv01
+(debug cxv01) => Method-stack traceback:
+  Sent 'debug' in standard input, line 383
+  Sent 'test-debug' in standard input, line 664
+Testing cxv02
+(debug cxv02) => Method-stack traceback:
+  Sent 'debug' in standard input, line 383
+  Sent 'test-debug' in standard input, line 665
+Testing cxv03
+(debug cxv03) => Method-stack traceback:
+  Sent 'debug' in standard input, line 383
+  Sent 'test-debug' in standard input, line 666
+Testing mxv01
+(debug mxv01) => Method-stack traceback:
+  Sent 'debug' in standard input, line 383
+  Sent 'test-debug' in standard input, line 669
+Testing mxv02
+(debug mxv02) => Method-stack traceback:
+  Sent 'debug' in standard input, line 383
+  Sent 'test-debug' in standard input, line 670
+Testing mxv03
+(debug mxv03) => Method-stack traceback:
+  Sent 'debug' in standard input, line 383
+  Sent 'test-debug' in standard input, line 671
+Testing mxv04
+(debug mxv04) => Method-stack traceback:
+  Sent 'debug' in standard input, line 383
+  Sent 'test-debug' in standard input, line 672
+Testing rxv01
+(debug rxv01) => Method-stack traceback:
+  Sent 'debug' in standard input, line 383
+  Sent 'test-debug' in standard input, line 675
+Testing rxv02
+(debug rxv02) => Method-stack traceback:
+  Sent 'debug' in standard input, line 383
+  Sent 'test-debug' in standard input, line 676
+Testing rxv03
+(debug rxv03) => Method-stack traceback:
+  Sent 'debug' in standard input, line 383
+  Sent 'test-debug' in standard input, line 677
+Testing rxv04
+(debug rxv04) => Method-stack traceback:
+  Sent 'debug' in standard input, line 383
+  Sent 'test-debug' in standard input, line 678
+Testing rxv05
+(debug rxv05) => Method-stack traceback:
+  Sent 'debug' in standard input, line 383
+  Sent 'test-debug' in standard input, line 679
+Testing sxv01
+(debug sxv01) => Method-stack traceback:
+  Sent 'debug' in standard input, line 383
+  Sent 'test-debug' in standard input, line 682
+Testing sxv02
+(debug sxv02) => Method-stack traceback:
+  Sent 'debug' in standard input, line 383
+  Sent 'test-debug' in standard input, line 683
+Testing sxv03
+(debug sxv03) => Method-stack traceback:
+  Sent 'debug' in standard input, line 383
+  Sent 'test-debug' in standard input, line 684
+Testing sxv04
+(debug sxv04) => Method-stack traceback:
+  Sent 'debug' in standard input, line 383
+  Sent 'test-debug' in standard input, line 685
+Testing sxv05
+(debug sxv05) => Method-stack traceback:
+  Sent 'debug' in standard input, line 383
+  Sent 'test-debug' in standard input, line 686
+Testing sxv06
+(debug sxv06) => Method-stack traceback:
+  Sent 'debug' in standard input, line 383
+  Sent 'test-debug' in standard input, line 687
+Testing sxv07
+(debug sxv07) => Method-stack traceback:
+  Sent 'debug' in standard input, line 383
+  Sent 'test-debug' in standard input, line 688
+Testing bxv01
+(debug bxv01) => Method-stack traceback:
+  Sent 'debug' in standard input, line 383
+  Sent 'test-debug' in standard input, line 691
+Testing bxv02
+(debug bxv02) => Method-stack traceback:
+  Sent 'debug' in standard input, line 383
+  Sent 'test-debug' in standard input, line 692
+Testing cxv01
+(size cxv01) => Method-stack traceback:
+  Sent 'size' in standard input, line 387
+  Sent 'test-size' in standard input, line 695
+Testing cxv02
+(size cxv02) => Method-stack traceback:
+  Sent 'size' in standard input, line 387
+  Sent 'test-size' in standard input, line 696
+Testing cxv03
+(size cxv03) => Method-stack traceback:
+  Sent 'size' in standard input, line 387
+  Sent 'test-size' in standard input, line 697
+Testing mxv01
+(size mxv01) => Method-stack traceback:
+  Sent 'size' in standard input, line 387
+  Sent 'test-size' in standard input, line 700
+Testing mxv02
+(size mxv02) => Method-stack traceback:
+  Sent 'size' in standard input, line 387
+  Sent 'test-size' in standard input, line 701
+Testing mxv03
+(size mxv03) => Method-stack traceback:
+  Sent 'size' in standard input, line 387
+  Sent 'test-size' in standard input, line 702
+Testing mxv04
+(size mxv04) => Method-stack traceback:
+  Sent 'size' in standard input, line 387
+  Sent 'test-size' in standard input, line 703
+Testing rxv01
+(size rxv01) => Method-stack traceback:
+  Sent 'size' in standard input, line 387
+  Sent 'test-size' in standard input, line 706
+Testing rxv02
+(size rxv02) => Method-stack traceback:
+  Sent 'size' in standard input, line 387
+  Sent 'test-size' in standard input, line 707
+Testing rxv03
+(size rxv03) => Method-stack traceback:
+  Sent 'size' in standard input, line 387
+  Sent 'test-size' in standard input, line 708
+Testing rxv04
+(size rxv04) => Method-stack traceback:
+  Sent 'size' in standard input, line 387
+  Sent 'test-size' in standard input, line 709
+Testing rxv05
+(size rxv05) => Method-stack traceback:
+  Sent 'size' in standard input, line 387
+  Sent 'test-size' in standard input, line 710
+Testing sxv01
+(size sxv01) => Method-stack traceback:
+  Sent 'size' in standard input, line 387
+  Sent 'test-size' in standard input, line 713
+Testing sxv02
+(size sxv02) => Method-stack traceback:
+  Sent 'size' in standard input, line 387
+  Sent 'test-size' in standard input, line 714
+Testing sxv03
+(size sxv03) => Method-stack traceback:
+  Sent 'size' in standard input, line 387
+  Sent 'test-size' in standard input, line 715
+Testing sxv04
+(size sxv04) => Method-stack traceback:
+  Sent 'size' in standard input, line 387
+  Sent 'test-size' in standard input, line 716
+Testing sxv05
+(size sxv05) => Method-stack traceback:
+  Sent 'size' in standard input, line 387
+  Sent 'test-size' in standard input, line 717
+Testing sxv06
+(size sxv06) => Method-stack traceback:
+  Sent 'size' in standard input, line 387
+  Sent 'test-size' in standard input, line 718
+Testing sxv07
+(size sxv07) => Method-stack traceback:
+  Sent 'size' in standard input, line 387
+  Sent 'test-size' in standard input, line 719
+Testing bxv01
+(size bxv01) => Method-stack traceback:
+  Sent 'size' in standard input, line 387
+  Sent 'test-size' in standard input, line 722
+Testing bxv02
+(size bxv02) => Method-stack traceback:
+  Sent 'size' in standard input, line 387
+  Sent 'test-size' in standard input, line 723
+Testing cxv01
+Method-stack traceback:
+  Sent 'size' in standard input, line 393
+  Sent 'value' in predefined classes, line 534
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in predefined classes, line 533
+  Sent 'do:' in standard input, line 391
+  Sent 'test-elem' in standard input, line 726
+Testing cxv02
+Method-stack traceback:
+  Sent 'size' in standard input, line 393
+  Sent 'value' in predefined classes, line 534
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in predefined classes, line 533
+  Sent 'do:' in standard input, line 391
+  Sent 'test-elem' in standard input, line 727
+Testing cxv03
+Method-stack traceback:
+  Sent 'size' in standard input, line 393
+  Sent 'value' in predefined classes, line 534
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in predefined classes, line 533
+  Sent 'do:' in standard input, line 391
+  Sent 'test-elem' in standard input, line 728
+Testing mxv01
+Method-stack traceback:
+  Sent 'size' in standard input, line 393
+  Sent 'value' in predefined classes, line 534
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in predefined classes, line 533
+  Sent 'do:' in standard input, line 391
+  Sent 'test-elem' in standard input, line 731
+Testing mxv02
+Method-stack traceback:
+  Sent 'size' in standard input, line 393
+  Sent 'value' in predefined classes, line 534
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in predefined classes, line 533
+  Sent 'do:' in standard input, line 391
+  Sent 'test-elem' in standard input, line 732
+Testing mxv03
+Method-stack traceback:
+  Sent 'size' in standard input, line 393
+  Sent 'value' in predefined classes, line 534
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in predefined classes, line 533
+  Sent 'do:' in standard input, line 391
+  Sent 'test-elem' in standard input, line 733
+Testing mxv04
+Method-stack traceback:
+  Sent 'size' in standard input, line 393
+  Sent 'value' in predefined classes, line 534
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in predefined classes, line 533
+  Sent 'do:' in standard input, line 391
+  Sent 'test-elem' in standard input, line 734
+Testing rxv01
+Method-stack traceback:
+  Sent 'size' in standard input, line 393
+  Sent 'value' in predefined classes, line 534
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in predefined classes, line 533
+  Sent 'do:' in standard input, line 391
+  Sent 'test-elem' in standard input, line 737
+Testing rxv02
+Method-stack traceback:
+  Sent 'size' in standard input, line 393
+  Sent 'value' in predefined classes, line 534
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in predefined classes, line 533
+  Sent 'do:' in standard input, line 391
+  Sent 'test-elem' in standard input, line 738
+Testing rxv03
+Method-stack traceback:
+  Sent 'size' in standard input, line 393
+  Sent 'value' in predefined classes, line 534
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in predefined classes, line 533
+  Sent 'do:' in standard input, line 391
+  Sent 'test-elem' in standard input, line 739
+Testing rxv04
+Method-stack traceback:
+  Sent 'size' in standard input, line 393
+  Sent 'value' in predefined classes, line 534
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in predefined classes, line 533
+  Sent 'do:' in standard input, line 391
+  Sent 'test-elem' in standard input, line 740
+Testing rxv05
+Method-stack traceback:
+  Sent 'size' in standard input, line 393
+  Sent 'value' in predefined classes, line 534
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in predefined classes, line 533
+  Sent 'do:' in standard input, line 391
+  Sent 'test-elem' in standard input, line 741
+Testing sxv01
+Method-stack traceback:
+  Sent 'size' in standard input, line 393
+  Sent 'value' in predefined classes, line 534
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in predefined classes, line 533
+  Sent 'do:' in standard input, line 391
+  Sent 'test-elem' in standard input, line 744
+Testing sxv02
+Method-stack traceback:
+  Sent 'size' in standard input, line 393
+  Sent 'value' in predefined classes, line 534
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in predefined classes, line 533
+  Sent 'do:' in standard input, line 391
+  Sent 'test-elem' in standard input, line 745
+Testing sxv03
+Method-stack traceback:
+  Sent 'size' in standard input, line 393
+  Sent 'value' in predefined classes, line 534
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in predefined classes, line 533
+  Sent 'do:' in standard input, line 391
+  Sent 'test-elem' in standard input, line 746
+Testing sxv04
+Method-stack traceback:
+  Sent 'size' in standard input, line 393
+  Sent 'value' in predefined classes, line 534
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in predefined classes, line 533
+  Sent 'do:' in standard input, line 391
+  Sent 'test-elem' in standard input, line 747
+Testing sxv05
+Method-stack traceback:
+  Sent 'size' in standard input, line 393
+  Sent 'value' in predefined classes, line 534
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in predefined classes, line 533
+  Sent 'do:' in standard input, line 391
+  Sent 'test-elem' in standard input, line 748
+Testing sxv06
+Method-stack traceback:
+  Sent 'size' in standard input, line 393
+  Sent 'value' in predefined classes, line 534
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in predefined classes, line 533
+  Sent 'do:' in standard input, line 391
+  Sent 'test-elem' in standard input, line 749
+Testing sxv07
+Method-stack traceback:
+  Sent 'size' in standard input, line 393
+  Sent 'value' in predefined classes, line 534
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in predefined classes, line 533
+  Sent 'do:' in standard input, line 391
+  Sent 'test-elem' in standard input, line 750
+Testing bxv01
+Method-stack traceback:
+  Sent 'size' in standard input, line 393
+  Sent 'value' in predefined classes, line 534
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in predefined classes, line 533
+  Sent 'do:' in standard input, line 391
+  Sent 'test-elem' in standard input, line 753
+Testing bxv02
+Method-stack traceback:
+  Sent 'size' in standard input, line 393
+  Sent 'value' in predefined classes, line 534
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in predefined classes, line 533
+  Sent 'do:' in standard input, line 391
+  Sent 'test-elem' in standard input, line 754
+Method-stack traceback:
+  Sent 'size' in standard input, line 223
+  Sent 'init' in standard input, line 219
+  Sent 'xv:name:' in standard input, line 757
+Method-stack traceback:
+  Sent 'size' in standard input, line 223
+  Sent 'init' in standard input, line 219
+  Sent 'xv:name:' in standard input, line 758
+Method-stack traceback:
+  Sent 'size' in standard input, line 223
+  Sent 'init' in standard input, line 219
+  Sent 'xv:name:' in standard input, line 759
+Method-stack traceback:
+  Sent 'size' in standard input, line 223
+  Sent 'init' in standard input, line 219
+  Sent 'xv:name:' in standard input, line 762
+Method-stack traceback:
+  Sent 'size' in standard input, line 223
+  Sent 'init' in standard input, line 219
+  Sent 'xv:name:' in standard input, line 763
+Method-stack traceback:
+  Sent 'size' in standard input, line 223
+  Sent 'init' in standard input, line 219
+  Sent 'xv:name:' in standard input, line 764
+Method-stack traceback:
+  Sent 'size' in standard input, line 223
+  Sent 'init' in standard input, line 219
+  Sent 'xv:name:' in standard input, line 765
+Method-stack traceback:
+  Sent 'size' in standard input, line 223
+  Sent 'init' in standard input, line 219
+  Sent 'xv:name:' in standard input, line 768
+Method-stack traceback:
+  Sent 'size' in standard input, line 223
+  Sent 'init' in standard input, line 219
+  Sent 'xv:name:' in standard input, line 769
+Method-stack traceback:
+  Sent 'size' in standard input, line 223
+  Sent 'init' in standard input, line 219
+  Sent 'xv:name:' in standard input, line 770
+Method-stack traceback:
+  Sent 'size' in standard input, line 223
+  Sent 'init' in standard input, line 219
+  Sent 'xv:name:' in standard input, line 771
+Method-stack traceback:
+  Sent 'size' in standard input, line 223
+  Sent 'init' in standard input, line 219
+  Sent 'xv:name:' in standard input, line 772
+Method-stack traceback:
+  Sent 'size' in standard input, line 223
+  Sent 'init' in standard input, line 219
+  Sent 'xv:name:' in standard input, line 775
+Method-stack traceback:
+  Sent 'size' in standard input, line 223
+  Sent 'init' in standard input, line 219
+  Sent 'xv:name:' in standard input, line 776
+Method-stack traceback:
+  Sent 'size' in standard input, line 223
+  Sent 'init' in standard input, line 219
+  Sent 'xv:name:' in standard input, line 777
+Method-stack traceback:
+  Sent 'size' in standard input, line 223
+  Sent 'init' in standard input, line 219
+  Sent 'xv:name:' in standard input, line 778
+Method-stack traceback:
+  Sent 'size' in standard input, line 223
+  Sent 'init' in standard input, line 219
+  Sent 'xv:name:' in standard input, line 779
+Method-stack traceback:
+  Sent 'size' in standard input, line 223
+  Sent 'init' in standard input, line 219
+  Sent 'xv:name:' in standard input, line 780
+Method-stack traceback:
+  Sent 'size' in standard input, line 223
+  Sent 'init' in standard input, line 219
+  Sent 'xv:name:' in standard input, line 781
+Method-stack traceback:
+  Sent 'size' in standard input, line 223
+  Sent 'init' in standard input, line 219
+  Sent 'xv:name:' in standard input, line 784
+Method-stack traceback:
+  Sent 'size' in standard input, line 223
+  Sent 'init' in standard input, line 219
+  Sent 'xv:name:' in standard input, line 785
+<class XVectorTesterMisc>
+
+##########
+Testing xv01
+(debug xv01) => ArrayXVector(( 1 2 3 4 5 6 ))
+(size xv01) => 6
+(print xv01) => << 1 2 3 4 5 6 >>
+(at:ifAbsent: xv01 xv01 0) => 1
+(at:ifAbsent: xv01 xv01 1) => 2
+(at:ifAbsent: xv01 xv01 2) => 3
+(at:ifAbsent: xv01 xv01 3) => 4
+(at:ifAbsent: xv01 xv01 4) => 5
+(at:ifAbsent: xv01 xv01 5) => 6
+(at:ifAbsent: xv01 7) => Method-stack traceback:
+  Sent 'at:' in standard input, line 166
+  Sent 'elem:' in standard input, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in standard input, line 31
+  Sent 'at:ifAbsent:' in standard input, line 815
+  Sent 'value' in predefined classes, line 534
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in predefined classes, line 533
+  Sent 'do:' in standard input, line 813
+  Sent 'testXV:testName:doProduct:' in standard input, line 790
+  Sent 'testXV:testName:' in standard input, line 900
+
+##########
+Testing xv02
+(debug xv02) => ArrayXVector(( -6 -5 -5 -4 -2 -1 ))
+(size xv02) => 6
+(print xv02) => << -6 -5 -5 -4 -2 -1 >>
+(at:ifAbsent: xv02 xv02 0) => -6
+(at:ifAbsent: xv02 xv02 1) => -5
+(at:ifAbsent: xv02 xv02 2) => -5
+(at:ifAbsent: xv02 xv02 3) => -4
+(at:ifAbsent: xv02 xv02 4) => -2
+(at:ifAbsent: xv02 xv02 5) => -1
+(at:ifAbsent: xv02 7) => Method-stack traceback:
+  Sent 'at:' in standard input, line 166
+  Sent 'elem:' in standard input, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in standard input, line 31
+  Sent 'at:ifAbsent:' in standard input, line 815
+  Sent 'value' in predefined classes, line 534
+  Sent 'value' in predefined classes, line 110
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in predefined classes, line 35
+  Sent 'while' in predefined classes, line 109
+  Sent 'timesRepeat:' in predefined classes, line 533
+  Sent 'do:' in standard input, line 813
+  Sent 'testXV:testName:doProduct:' in standard input, line 790
+  Sent 'testXV:testName:' in standard input, line 906
+
+##########
+Method-stack traceback:
+  Sent 'error:' in standard input, line 171
+  Sent 'withXV1:withXV2:' in standard input, line 911
+Testing xv03
+(debug xv03) => Method-stack traceback:
+  Sent 'debug' in standard input, line 803
+  Sent 'testXV:testName:doProduct:' in standard input, line 790
+  Sent 'testXV:testName:' in standard input, line 912
+
+##########
+Method-stack traceback:
+  Sent 'error:' in standard input, line 179
+  Sent 'withXV:withN:' in standard input, line 917
+Testing xv04
+(debug xv04) => Method-stack traceback:
+  Sent 'debug' in standard input, line 803
+  Sent 'testXV:testName:doProduct:' in standard input, line 790
+  Sent 'testXV:testName:' in standard input, line 918
+
+##########
+Method-stack traceback:
+  Sent 'error:' in standard input, line 179
+  Sent 'withXV:withN:' in standard input, line 923
+Testing xv05
+(debug xv05) => Method-stack traceback:
+  Sent 'debug' in standard input, line 803
+  Sent 'testXV:testName:doProduct:' in standard input, line 790
+  Sent 'testXV:testName:' in standard input, line 924
+
+##########
+Method-stack traceback:
+  Sent 'error:' in standard input, line 179
+  Sent 'withXV:withN:' in standard input, line 929
+Testing xv06
+(debug xv06) => Method-stack traceback:
+  Sent 'debug' in standard input, line 803
+  Sent 'testXV:testName:doProduct:' in standard input, line 790
+  Sent 'testXV:testName:' in standard input, line 930
+
+##########
+Method-stack traceback:
+  Sent 'error:' in standard input, line 187
+  Sent 'withXV:' in standard input, line 935
+Testing xv07
+(debug xv07) => Method-stack traceback:
+  Sent 'debug' in standard input, line 803
+  Sent 'testXV:testName:doProduct:' in standard input, line 790
+  Sent 'testXV:testName:' in standard input, line 936
+
+##########
+Method-stack traceback:
+  Sent 'error:' in standard input, line 187
+  Sent 'withXV:' in standard input, line 941
+Testing xv08
+(debug xv08) => Method-stack traceback:
+  Sent 'debug' in standard input, line 803
+  Sent 'testXV:testName:doProduct:' in standard input, line 790
+  Sent 'testXV:testName:' in standard input, line 942
+
+##########
+Method-stack traceback:
+  Sent 'error:' in standard input, line 187
+  Sent 'withXV:' in standard input, line 947
+Testing xv09
+(debug xv09) => Method-stack traceback:
+  Sent 'debug' in standard input, line 803
+  Sent 'testXV:testName:doProduct:' in standard input, line 790
+  Sent 'testXV:testName:' in standard input, line 948
+
+##########
+Method-stack traceback:
+  Sent 'error:' in standard input, line 187
+  Sent 'withXV:' in standard input, line 953
+Testing xv10
+(debug xv10) => Method-stack traceback:
+  Sent 'debug' in standard input, line 803
+  Sent 'testXV:testName:doProduct:' in standard input, line 790
+  Sent 'testXV:testName:' in standard input, line 954
+
+##########
+Method-stack traceback:
+  Sent 'error:' in standard input, line 187
+  Sent 'withXV:' in standard input, line 959
+Testing xv11
+(debug xv11) => Method-stack traceback:
+  Sent 'debug' in standard input, line 803
+  Sent 'testXV:testName:doProduct:' in standard input, line 790
+  Sent 'testXV:testName:' in standard input, line 960
+
+##########
+Method-stack traceback:
+  Sent 'error:' in standard input, line 195
+  Sent 'withXV1:withXV2:' in standard input, line 965
+Testing xv12
+(debug xv12) => Method-stack traceback:
+  Sent 'debug' in standard input, line 803
+  Sent 'testXV:testName:doProduct:' in standard input, line 790
+  Sent 'testXV:testName:' in standard input, line 966
+
+##########
+Method-stack traceback:
+  Sent 'error:' in standard input, line 195
+  Sent 'withXV1:withXV2:' in standard input, line 971
+Testing xv13
+(debug xv13) => Method-stack traceback:
+  Sent 'debug' in standard input, line 803
+  Sent 'testXV:testName:doProduct:' in standard input, line 790
+  Sent 'testXV:testName:' in standard input, line 972
+
+##########
+Method-stack traceback:
+  Sent 'error:' in standard input, line 195
+  Sent 'withXV1:withXV2:' in standard input, line 977
+Testing xv14
+(debug xv14) => Method-stack traceback:
+  Sent 'debug' in standard input, line 803
+  Sent 'testXV:testName:doProduct:' in standard input, line 790
+  Sent 'testXV:testName:' in standard input, line 978
+
+##########
+Method-stack traceback:
+  Sent 'error:' in standard input, line 195
+  Sent 'withXV1:withXV2:' in standard input, line 983
+Testing xv15
+(debug xv15) => Method-stack traceback:
+  Sent 'debug' in standard input, line 803
+  Sent 'testXV:testName:doProduct:' in standard input, line 790
+  Sent 'testXV:testName:' in standard input, line 984
+
+##########
+Method-stack traceback:
+  Sent 'error:' in standard input, line 195
+  Sent 'withXV1:withXV2:' in standard input, line 989
+Testing xv16
+(debug xv16) => Method-stack traceback:
+  Sent 'debug' in standard input, line 803
+  Sent 'testXV:testName:doProduct:' in standard input, line 790
+  Sent 'testXV:testName:' in standard input, line 990
+
+##########
+Method-stack traceback:
+  Sent 'error:' in standard input, line 195
+  Sent 'withXV1:withXV2:' in standard input, line 995
+Testing xv17
+(debug xv17) => Method-stack traceback:
+  Sent 'debug' in standard input, line 803
+  Sent 'testXV:testName:doProduct:' in standard input, line 790
+  Sent 'testXV:testName:' in standard input, line 996
+
+##########
+Method-stack traceback:
+  Sent 'error:' in standard input, line 203
+  Sent 'withN:withBlock:' in standard input, line 1001
+Testing xv18
+(debug xv18) => Method-stack traceback:
+  Sent 'debug' in standard input, line 803
+  Sent 'testXV:testName:doProduct:' in standard input, line 1002
+
+##########
+Method-stack traceback:
+  Sent 'error:' in standard input, line 203
+  Sent 'withN:withBlock:' in standard input, line 1007
+Testing xv19
+(debug xv19) => Method-stack traceback:
+  Sent 'debug' in standard input, line 803
+  Sent 'testXV:testName:doProduct:' in standard input, line 1008
+
+##########
+Method-stack traceback:
+  Sent '*' in standard input, line 1013
+Testing xv20
+(debug xv20) => Method-stack traceback:
+  Sent 'debug' in standard input, line 803
+  Sent 'testXV:testName:doProduct:' in standard input, line 790
+  Sent 'testXV:testName:' in standard input, line 1014
+
+##########
+Testing xv01 xv01
+(= xv01 xv01) => <True>
+(< xv01 xv01) => Method-stack traceback:
+  Sent 'while:' in standard input, line 127
+  Sent '<' in standard input, line 876
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 6
+  Sent 'ifTrue:' in standard input, line 873
+  Sent 'testXV1:testName1:testXV2:testName2:' in standard input, line 885
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in standard input, line 884
+  Sent 'value' in predefined classes, line 32
+  Sent 'value' in predefined classes, line 22
+  Sent 'ifTrue:ifFalse:' in predefined classes, line 31
+  Sent 'whileTrue:' in standard input, line 882
+  Sent 'testXVs:testNs:' in standard input, line 1018
+
+##########
+Method-stack traceback:
+  Sent 'error:' in standard input, line 203
+  Sent 'withN:withBlock:' in standard input, line 1023
+Testing xv21
+(debug xv21) => Method-stack traceback:
+  Sent 'debug' in standard input, line 803
+  Sent 'testXV:testName:doProduct:' in standard input, line 790
+  Sent 'testXV:testName:' in standard input, line 1024
+
+##########
+Method-stack traceback:
+  Sent 'error:' in standard input, line 203
+  Sent 'withN:withBlock:' in standard input, line 1029
+Testing xv22
+(debug xv22) => Method-stack traceback:
+  Sent 'debug' in standard input, line 803
+  Sent 'testXV:testName:doProduct:' in standard input, line 790
+  Sent 'testXV:testName:' in standard input, line 1030
+
+##########
